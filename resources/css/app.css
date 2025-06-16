@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth transitions for form elements */
+input, select, textarea {
+    transition: all 0.2s ease;
+}
+
+/* Better focus states */
+input:focus, select:focus, textarea:focus {
+    box-shadow: 0 0 0 3px rgba(164, 202, 254, 0.45);
+}
+
+/* Button hover effects */
+.btn-hover {
+    transition: all 0.2s ease;
+    transform: translateY(-1px);
+}
+.btn-hover:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
