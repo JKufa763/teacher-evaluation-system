@@ -41,8 +41,8 @@ A modern web application for managing and evaluating teachers, built with Larave
 ## Database
 
 - The `/database/migrations` folder contains migration files.
-- I have a custom DB, you can export it as `database.sql` and add instructions in the README:
-  > To use the pre-built database, import `tyyyout.sql` into your MySQL/Postgres instance.
+- I have a custom DB, you can export it as `tryyout.sql` and add instructions in the README:
+  > To use the pre-built database, import `prototype(1).sql` into your MySQL/Postgres instance.
 
 ## Usage
 
