@@ -12,6 +12,8 @@ A modern web application for managing and evaluating teachers, built with Larave
 - Laravel 12.x (PHP 8.x)
 - MySQL/PostgreSQL
 - Blade, Bootstrap/Tailwind
+- HTML
+- Javascript(Chart.js)
 
 ## Setup
 
@@ -34,13 +36,13 @@ A modern web application for managing and evaluating teachers, built with Larave
    ```
    php artisan migrate
    ```
-   > **Note:** The current migrations in the file do not represent the current state of the web app so a seperate database was and is to be used and it will be present in the i will upload it seperately
+   > **Note:** The current migrations in the file do not represent the current state of the web app so a seperate database was and is to be used and it will be present in         the i will upload it seperately. The tryyyout.sql file will be in the root folder with the database structure in there do a manual importion via the means that will be       described in the next section.
 
 ## Database
 
 - The `/database/migrations` folder contains migration files.
 - I have a custom DB, you can export it as `database.sql` and add instructions in the README:
-  > To use the pre-built database, import `database/database.sql` into your MySQL/Postgres instance.
+  > To use the pre-built database, import `tyyyout.sql` into your MySQL/Postgres instance.
 
 ## Usage
 
@@ -52,13 +54,12 @@ A modern web application for managing and evaluating teachers, built with Larave
 
 ## Screenshots
 
-![Dashboard Screenshot](screenshots/dashboard.png)
-![Evaluation Form](screenshots/evaluation-form.png)
+There are the png files in the root folder here which will show the various dashboards and reports derived from the system
 
 ## Credits
 
-- Documentation and codebase inspired by [@YourName](https://github.com/yourusername)
-- Special thanks to [@AssistantName] for documentation help
+- Documentation and codebase inspired by [@Kufa Joshua](https://github.com/JKufa763)
+- Special thanks to [@Kennias Kelvin Muumbe] for documentation help
 
 ## License
 
