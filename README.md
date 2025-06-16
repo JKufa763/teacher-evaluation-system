@@ -9,7 +9,7 @@ A modern web application for managing and evaluating teachers, built with Larave
 - RESTful API
 
 ## Tech Stack
-- Laravel 12.x (PHP 8.x)
+- Laravel 12.x (PHP 8.4.1)
 - MySQL/PostgreSQL
 - Blade, Bootstrap/Tailwind
 - HTML
